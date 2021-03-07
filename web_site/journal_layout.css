@@ -1,17 +1,18 @@
 .container {
     height: auto;
-    width: 900px;
+    width: 80%;
     background-color: white;
     border: 10px solid white;
     margin-left: 10%;
-    margin-right: 10%
+    margin-right: 10%;
+    overflow: hidden;
 }
 body {
     background-image: url(background.gif);
 }
 .title {
 	width: auto;
-    background-color: #C2E9E9;
+    background-color: #E8FBFB;
 }
 .title1 {
     overflow: hidden;
@@ -21,10 +22,19 @@ body {
     border: 4px solid #C2E9E9;
     background-color:  #E8FBFB;
 }
+.rectangl {
+    float: left;
+    border: 5px solid blue;
+    margin-top: 10px;
+    margin-right: 7px;
+    background-color: #C2E9E9;
+}
+#Friends {
+    text-align: center;
+}
 .subtitle {
 	width: auto;
 	height: 40px;
-  font-size: 14px;
 }
 .date_border {
     border-bottom: dashed 2px;
@@ -37,10 +47,20 @@ h1, h2 {
 p {
  color:  #407ad6
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: inherit;
+}
 .image {
     float: right;
 }
 #top {
    text-align: right;
     margin: 2px;
+}
+.body
+{
+    overflow: hidden;
 }
